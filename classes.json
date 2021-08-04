@@ -1,0 +1,29 @@
+[
+    {
+        "@type": "Enum",
+        "@id": "Region",
+        "Leinster": "Region.Leinster",
+        "Munster": "Region.Munster",
+        "Connacht": "Region.Connacht",
+        "Ulster": "Region.Ulster"
+    },
+    {
+        "@id": "Address",
+        "@type": "Document",
+        "cardValue": "any",
+        "idgen": [
+            "street",
+            "region",
+            "postalCode"
+        ],
+        "street": [
+            "Optional",
+            "string"
+        ],
+        "region": [
+            "Optional",
+            "Region"
+        ],
+        "postalCode": "string"
+    }
+]

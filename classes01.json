@@ -1,0 +1,81 @@
+{ "@type" : "Document",
+    "@id" : "Person",
+    "name" : "xsd:string",
+    "age" : "xsd:integer",
+    "friend_of" : ["Set", "Friend"] } 
+
+
+[
+    {
+        "name": "WoqlDocument",
+        "documentation": "",
+        "type": "typeof WoqlDocument",
+        "constructors": [
+            {
+                "parameters": [
+                    {
+                        "name": "id",
+                        "documentation": "",
+                        "type": "string"
+                    }
+                ],
+                "returnType": "WoqlDocument",
+                "documentation": ""
+            }
+        ]
+    },
+    {
+        "name": "Address",
+        "documentation": "",
+        "type": "typeof Address",
+        "constructors": [
+            {
+                "parameters": [
+                    {
+                        "name": "id",
+                        "documentation": "",
+                        "type": "string"
+                    }
+                ],
+                "returnType": "Address",
+                "documentation": ""
+            }
+        ]
+    },
+    {
+        "name": "Person",
+        "documentation": "",
+        "type": "typeof Person",
+        "constructors": [
+            {
+                "parameters": [
+                    {
+                        "name": "id",
+                        "documentation": "",
+                        "type": "string"
+                    }
+                ],
+                "returnType": "Person",
+                "documentation": ""
+            }
+        ]
+    },
+    {
+        "name": "Animal",
+        "documentation": "",
+        "type": "typeof Animal",
+        "constructors": [
+            {
+                "parameters": [
+                    {
+                        "name": "attributes",
+                        "documentation": "",
+                        "type": "AnimalProperties"
+                    }
+                ],
+                "returnType": "Animal",
+                "documentation": ""
+            }
+        ]
+    }
+]
